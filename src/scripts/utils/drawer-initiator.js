@@ -1,3 +1,4 @@
+/* eslint-disable no-underscore-dangle */
 const DrawerInitiator = {
   init({ button, drawer, content }) {
     button.addEventListener('click', (event) => {

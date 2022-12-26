@@ -1,3 +1,4 @@
+/* eslint-disable no-underscore-dangle */
 /* eslint-disable import/extensions */
 /* eslint-disable import/no-unresolved */
 import FavoriteRestaurantIdb from '../data/favorite-restaurant-idb';

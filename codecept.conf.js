@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 const { setHeadlessWhen, setCommonPlugins } = require('@codeceptjs/configure');
 // turn on headless mode when running with HEADLESS=true environment variable
 // export HEADLESS=true && npx codeceptjs run
@@ -14,11 +15,11 @@ exports.config = {
     Puppeteer: {
       url: 'http://127.0.0.1:9000',
       show: true,
-      windowSize: '1200x900'
-    }
+      windowSize: '1200x900',
+    },
   },
   include: {
-    I: './steps_file.js'
+    I: './steps_file.js',
   },
-  name: 'Submission Expert 2 Restaurant'
-}
+  name: 'Submission Expert 2 Restaurant',
+};

@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable no-useless-return */
 import * as WorkboxWindow from 'workbox-window';
 

@@ -73,7 +73,7 @@ const createRestaurantItemTemplate = (restaurant) => `
 <div class="restaurant-item">
 <div class="restaurant-item__header">
     <img class="restaurant-item__header__poster lazyload" alt="${restaurant.name || '-'}"
-    src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}">
+    data-src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}">
     <div class="restaurant-item__header__rating">
         <p>⭐️<span class="restaurant-item__header__rating__score">${restaurant.rating} | ${restaurant.city || '-'}</span></p>
     </div>
